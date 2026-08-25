@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "AgentCover",
+    "slug": "agentcover",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "agentcover",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0E14"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.agentcover.app"
+    },
+    "android": {
+      "package": "com.agentcover.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E14"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "backendUrl": "http://127.0.0.1:8731",
+      "revenueCat": {
+        "androidApiKey": "ANDROID_REVENUECAT_KEY",
+        "iosApiKey": "IOS_REVENUECAT_KEY"
+      },
+      "eas": {
+        "projectId": "agentcover-shipaton-2026"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}

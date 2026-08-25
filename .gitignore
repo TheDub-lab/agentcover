@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.expo/
+android/
+ios/
+*.log
+.env
+play-api-key.json
+backend/__pycache__/
+__pycache__/
+*.pyc
+.DS_Store
