@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "AgentCover",
+    "slug": "agentcover",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "agentcover",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0E14"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.agentcover.app"
+    },
+    "android": {
+      "package": "com.agentcover.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0E14"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "backendUrl": "http://127.0.0.1:8731",
+      "revenueCat": {
+        "androidApiKey": "ANDROID_REVENUECAT_KEY",
+        "iosApiKey": "IOS_REVENUECAT_KEY"
+      },
+      "eas": {
+        "projectId": "0e619968-c175-40d8-a302-6b86638cb16d"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "owner": "gatekeeperprotocols-team"
+  }
+}

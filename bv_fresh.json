@@ -1,0 +1,47 @@
+{
+  "id": "243eb968-652e-4ab0-a160-ac1f3667933e",
+  "status": "ERRORED",
+  "platform": "ANDROID",
+  "error": {
+    "errorCode": "EAS_BUILD_UNKNOWN_GRADLE_ERROR",
+    "message": "Gradle build failed with unknown error. See logs for the \"Run gradlew\" phase for more information."
+  },
+  "artifacts": {},
+  "fingerprint": {
+    "id": "01a03d66-f8b9-7ae9-97a4-9f713433821f",
+    "hash": "d3e85374bc123be2f65a766d8c1bf9fe841988cb"
+  },
+  "initiatingActor": {
+    "id": "6096d3b6-deaa-4b7c-b22d-5a55507dcd36",
+    "displayName": "thegaurd"
+  },
+  "logFiles": [
+    "https://storage.googleapis.com/eas-workflows-production/logs/0e619968-c175-40d8-a302-6b86638cb16d/243eb968-652e-4ab0-a160-ac1f3667933e/2026-08-26T09%3A29%3A15Z-34230bfe-18cc-4c3f-bb93-da5abde78b00.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260826%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260826T095910Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=45ff8a566c064524277ab1a7c3993680860c6d3ac538ea6bdba90178775c4b14962e484d5e8936f55158158604f896a4b6110e339c0a3d1a07366f7d05543790e10f0dba0cfe7588f837d84fbaef3789cfd9fcc04c0076441c714bcbeb0e69b2ad4911f5237fc1deb02574176accf36e661b2e57019c191ec916ab4e44ca01d8e61c9d86f0cc3ad1f78cb03ff91375d8d285c81d3c9a30bb530df010558dbaaab6da59a32f3df757a25f85980c85e67bc9097a5b2c548e2e8c757d27c38524dd4413badb394e183103211d9104f2d8b0f9925716664f7ed432bf9e6bf79abbf993dd8a6376c9c9c4af253db0a6e63330e9169fb96c6f2348cab5bfb900c21216"
+  ],
+  "app": {
+    "id": "0e619968-c175-40d8-a302-6b86638cb16d",
+    "name": "agentcover",
+    "slug": "agentcover",
+    "ownerAccount": {
+      "id": "e924bdcf-e6d5-490b-9f15-e8a045f97c91",
+      "name": "gatekeeperprotocols-team"
+    }
+  },
+  "distribution": "INTERNAL",
+  "buildProfile": "preview",
+  "appIdentifier": "com.agentcover.app",
+  "sdkVersion": "52.0.0",
+  "appVersion": "0.1.0",
+  "appBuildVersion": "1",
+  "priority": "NORMAL",
+  "createdAt": "2026-08-26T09:29:13.626Z",
+  "updatedAt": "2026-08-26T09:31:32.247Z",
+  "completedAt": "2026-08-26T09:31:32.042Z",
+  "expirationDate": "2026-09-09T09:29:13.647Z",
+  "isForIosSimulator": false,
+  "metrics": {
+    "buildWaitTime": 642,
+    "buildQueueTime": 5489,
+    "buildDuration": 132285
+  }
+}
