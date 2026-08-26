@@ -34,12 +34,25 @@
         "iosApiKey": "IOS_REVENUECAT_KEY"
       },
       "eas": {
-        "projectId": "agentcover-shipaton-2026"
+        "projectId": "0e619968-c175-40d8-a302-6b86638cb16d"
       }
     },
     "plugins": [
       "expo-asset",
-      "expo-font"
-    ]
+      "expo-font",
+      "expo-system-ui",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24,
+            "kotlinVersion": "1.9.24"
+          }
+        }
+      ]
+    ],
+    "owner": "gatekeeperprotocols-team"
   }
 }
