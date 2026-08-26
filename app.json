@@ -39,8 +39,7 @@
     },
     "plugins": [
       "expo-asset",
-      "expo-font",
-      "expo-system-ui"
+      "expo-font"
     ],
     "owner": "gatekeeperprotocols-team"
   }
